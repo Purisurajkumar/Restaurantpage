@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+.heading{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    background-color: white;
+    width: 100%;
+}
+.logobox{
+    height: 100%;
+    width: 40%;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+.buttonbox{
+    height: 20px;
+    margin-right: 10px;
+}
+.button{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.navlink{
+    color: white;
+    margin: 10px 0;
+}
+.slide{
+    width: 100%;
+    height: 200px;
+}
+.asidebox{
+    border: solid 1px white;
+    background-color: orangered;
+}
+.heading1{
+    margin: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+.text{
+    color: white;
+    margin: 10px;
+}
+.list{
+    color: white;
+}
+.day{
+    color: white;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+.time{
+    color: white;
+    margin: 10px;
+}
+.sectionbox1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+}
+.imagebox1{
+    width: 100%;
+    height: 50%;
+}
+.picture1{
+    width: 100%;
+    height: 100%;
+}
+.textbox1{
+    width: 100%;
+    height: 50%;
+}
+.name{
+    color: green;
+}
+.sectionheading{
+    font-size: 30px;
+    color: brown;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.bottombox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(min-width:768px){
+    .navbar{
+        flex-direction: row;
+    }
+    .navlink{
+        margin:  10px;
+    }
+    .logobox{
+        width: 20%;
+    }
+    .sectionbox{
+      width: 65%;
+
+    }
+    .asidebox{
+        width: 30%;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .imagebox1{
+        width: 30%;
+        height: 100%;
+    }
+    .picture1{
+        height: 60%;
+    }
+    .textbox1{
+        width: 60%;
+        height: 100%;
+        margin-left: 10px;
+    }
+    .sectionbox1{
+        height: 200px;
+    }
+    .name{
+        margin-top: 0;
+    }
+    .content{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .bottombox{
+        flex-direction: row;
+    }
+}
